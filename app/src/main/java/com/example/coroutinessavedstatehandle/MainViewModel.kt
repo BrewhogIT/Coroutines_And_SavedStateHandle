@@ -28,9 +28,9 @@ class MainViewModel(savedStateHandle: SavedStateHandle):ViewModel() {
         //startWithAsyncCoroutineScope()
         //startWithGlobalScope()
         startWithRunBlocking()
-
-
     }
+
+
 
     fun stop(){
         //stopJob()
@@ -75,10 +75,7 @@ class MainViewModel(savedStateHandle: SavedStateHandle):ViewModel() {
                 
 
             }
-
-
         }
-
     }
 
     private fun stopDeferred(){
